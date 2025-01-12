@@ -1,0 +1,57 @@
+.bannerContent h1 {
+    font-size: 3rem !important ;
+    font-weight: 700;
+}
+
+.bannerContent h1 span {
+    color: #2699fb;
+    /* background: url(../images/highlight_text.png) no-repeat bottom; */
+}
+
+:root {
+    --primary: #0d6efd;  /* Bootstrap's default blue */
+  }
+  
+  .text-navy {
+    color: #1a237e;
+  }
+  
+  .btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0b5ed7;
+  }
+
+  /* sponsors slide */
+  .sponsors-section {
+    overflow: hidden;
+  }
+  
+  .sponsor-item {
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .sponsor-item:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Custom navigation button styles */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #0d6efd;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 20px;
+  }
+
+
+  /* sponsors slide end */

@@ -1,0 +1,17 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+    /* .btn-outer {
+        position: fixed;
+        bottom: 0px;
+    } */
+
+    .bannerContent h1 {
+        font-size: 13rem; 
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1170px;
+  }
+}
